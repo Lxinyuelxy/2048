@@ -116,7 +116,7 @@ function no_block_vertical(y,x1,x2,board){
 }
 
 
-function nomove(board) {
+function cannotmove(board) {
 	if (can_move_down(board) || can_move_up(board) || can_move_right(board) || can_move_left(board)) {
 		return false;
 	}
